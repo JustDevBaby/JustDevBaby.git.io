@@ -1,0 +1,105 @@
+@import url(http://fonts.googleapis.com/css?family=PT+Serif:400,700italic);
+
+html {
+	font-size: 16px;
+
+	
+
+}
+body {
+	font-family: 'PT Serif', serif;
+    background-color:lightgrey;
+}
+h3 {
+	font-size: 2.369em; /*38px/16px */
+	font-family: 'PT Serif', serif;
+}
+h5 {
+	font-size: 1.333em; /*21px/16px */
+	font-family: 'PT Serif', serif;
+}
+p {
+	font-size: 1em; /*21px/16px */
+	margin-bottom: -3px;
+}
+em {
+	font-style: bold;
+}
+
+#backButton {
+	margin-top: 10px;
+	border:2;
+	border-color:#FFFFCC;
+	border-style:dashed;
+	background-color:#000000
+}
+#backButton:hover { 
+    background-color: orange;
+    border:2;
+    border-color:#FFFFCC;
+	border-style:dashed;
+}
+
+.inner {
+margin: 20px;
+border: black solid 3px;
+padding: 15px 30px;
+background-color: white;
+}
+.container {
+/*max-width: 960px;
+margin: 0 auto;*/
+}
+.name_header_box {
+	background-color: rgba(248, 173, 22, 0.8);
+	box-shadow: 5px 5px 5px #a31505;
+	border: black solid 2px;
+
+}
+h5.border-box {
+	border: black solid 2px;
+	background-color: rgba(248, 173, 22, 0.8);
+	text-align: center;
+	box-shadow: 5px 5px 5px #a31505;
+
+}
+.qualification {
+	margin-top: 20px;
+}
+.catagory {
+	/*border: brown solid 2px;*/
+	
+
+}
+.qualify-list {
+	background-color: white;
+	text-align: left;
+}
+.experience-list {
+	background-color: white;
+	text-align: left;
+}
+.comp-name-city {
+	
+	display: inline;
+}
+.work-dates {
+	float: right;
+	margin-top: -20px;
+	
+}
+.job-title {
+	max-width: 525px;
+	
+	text-align: left;
+	font-style: bold;
+	font-style: italic;
+}
+.my-experience {
+	text-align: left;
+		
+}
+ul {
+	list-style-type: square;
+}
+
